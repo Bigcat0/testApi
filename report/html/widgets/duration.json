@@ -1,0 +1,121 @@
+[ {
+  "uid" : "91132f9c216f15e3",
+  "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_saveOrUpdateUser_success",
+  "time" : {
+    "start" : 1554608699402,
+    "stop" : 1554608699441,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d79a3bd95d75ccb8",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_getUserInfo.Test_getUserInfo.test_getUserInfo",
+  "time" : {
+    "start" : 1554608698942,
+    "stop" : 1554608698974,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "246c2fdfe98ee56b",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_two",
+  "time" : {
+    "start" : 1554608699067,
+    "stop" : 1554608699098,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d6ca9ae20a9f525",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_three",
+  "time" : {
+    "start" : 1554608699099,
+    "stop" : 1554608699195,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2fe5b564242af70",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_five",
+  "time" : {
+    "start" : 1554608699221,
+    "stop" : 1554608699400,
+    "duration" : 179
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "79f4d927859a0bed",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_success",
+  "time" : {
+    "start" : 1554608698975,
+    "stop" : 1554608699018,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80769932bf907e6",
+  "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_loadUserInfo",
+  "time" : {
+    "start" : 1554608699575,
+    "stop" : 1554608699696,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9203f76f5bcda0a",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_fore",
+  "time" : {
+    "start" : 1554608699197,
+    "stop" : 1554608699220,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "138fdaf12d6f87f6",
+  "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_loadUserList",
+  "time" : {
+    "start" : 1554608699499,
+    "stop" : 1554608699573,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47da79a3ead883bd",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_changePwd.Test_ChangePwd.test_changePwd_success",
+  "time" : {
+    "start" : 1554608698686,
+    "stop" : 1554608698906,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c926e83148ca364",
+  "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_login",
+  "time" : {
+    "start" : 1554608699442,
+    "stop" : 1554608699497,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e489a59f886a770e",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail",
+  "time" : {
+    "start" : 1554608699020,
+    "stop" : 1554608699065,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,153 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "D:\\testApi\\testcase\\sys.test_sys_changePwd.Test_ChangePwd.test_changePwd_success",
+      "uid" : "47da79a3ead883bd",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608698686,
+        "stop" : 1554608698906,
+        "duration" : 220
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\sys.test_sys_getUserInfo.Test_getUserInfo.test_getUserInfo",
+      "uid" : "d79a3bd95d75ccb8",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608698942,
+        "stop" : 1554608698974,
+        "duration" : 32
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_success",
+      "uid" : "79f4d927859a0bed",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608698975,
+        "stop" : 1554608699018,
+        "duration" : 43
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail",
+      "uid" : "e489a59f886a770e",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608699020,
+        "stop" : 1554608699065,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_two",
+      "uid" : "246c2fdfe98ee56b",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608699067,
+        "stop" : 1554608699098,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_three",
+      "uid" : "3d6ca9ae20a9f525",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608699099,
+        "stop" : 1554608699195,
+        "duration" : 96
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_fore",
+      "uid" : "d9203f76f5bcda0a",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608699197,
+        "stop" : 1554608699220,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_five",
+      "uid" : "d2fe5b564242af70",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554608699221,
+        "stop" : 1554608699400,
+        "duration" : 179
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_saveOrUpdateUser_success",
+      "uid" : "91132f9c216f15e3",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608699402,
+        "stop" : 1554608699441,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_login",
+      "uid" : "1c926e83148ca364",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608699442,
+        "stop" : 1554608699497,
+        "duration" : 55
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_loadUserList",
+      "uid" : "138fdaf12d6f87f6",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608699499,
+        "stop" : 1554608699573,
+        "duration" : 74
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_loadUserInfo",
+      "uid" : "80769932bf907e6",
+      "parentUid" : "7d3977dcbf31acd3e26ecbe96342e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554608699575,
+        "stop" : 1554608699696,
+        "duration" : 121
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}

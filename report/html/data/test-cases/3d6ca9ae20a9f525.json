@@ -1,0 +1,66 @@
+{
+  "uid" : "3d6ca9ae20a9f525",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_three",
+  "fullName" : "testcase.D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_three",
+  "historyId" : "73270ba0c21f4dc2c7af80b2ab775c03",
+  "time" : {
+    "start" : 1554608699099,
+    "stop" : 1554608699195,
+    "duration" : 96
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "CY-20180317HVRX"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "用户名不存在"
+  }, {
+    "name" : "thread",
+    "value" : "8160-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_three"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d6ca9ae20a9f525.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,190 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554608698686" stop="1554608699696">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554608698686" status="passed" stop="1554608698906">
+      <name>D:\testApi\testcase\sys.test_sys_changePwd.Test_ChangePwd.test_changePwd_success</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="修改密码模块"/>
+        <label name="story" value="修改密码成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608698942" status="passed" stop="1554608698974">
+      <name>D:\testApi\testcase\sys.test_sys_getUserInfo.Test_getUserInfo.test_getUserInfo</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="获取登录信息"/>
+        <label name="story" value="获取用户信息"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608698975" status="passed" stop="1554608699018">
+      <name>D:\testApi\testcase\sys.test_sys_login.Test_Login.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录模块"/>
+        <label name="story" value="登录成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608699020" status="passed" stop="1554608699065">
+      <name>D:\testApi\testcase\sys.test_sys_login.Test_Login.test_login_fail</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录模块"/>
+        <label name="story" value="密码错误"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608699067" status="passed" stop="1554608699098">
+      <name>D:\testApi\testcase\sys.test_sys_login.Test_Login.test_login_fail_two</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录模块"/>
+        <label name="story" value="用户名超过15位"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608699099" status="passed" stop="1554608699195">
+      <name>D:\testApi\testcase\sys.test_sys_login.Test_Login.test_login_fail_three</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录模块"/>
+        <label name="story" value="用户名不存在"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608699197" status="passed" stop="1554608699220">
+      <name>D:\testApi\testcase\sys.test_sys_login.Test_Login.test_login_fail_fore</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录模块"/>
+        <label name="story" value="无参数"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608699221" status="failed" stop="1554608699400">
+      <name>D:\testApi\testcase\sys.test_sys_login.Test_Login.test_login_fail_five</name>
+      <failure>
+        <message>AssertionError: assert 3010 == 301</message>
+        <stack-trace>this = &lt;testcase.sys.test_sys_login.Test_Login object at 0x0000000004673780&gt;
+
+    @allure.story('用户名为空')
+    def test_login_fail_five(this):
+        data = {
+            'userName':'',
+            'password': CommonData.password
+        }
+        resp = http.post('/sys/login', data)
+&gt;       assert resp['code'] == 301
+E       assert 3010 == 301
+
+testcase\sys\test_sys_login.py:62: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录模块"/>
+        <label name="story" value="用户名为空"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608699402" status="passed" stop="1554608699441">
+      <name>D:\testApi\testcase\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_saveOrUpdateUser_success</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="新建用户"/>
+        <label name="story" value="新建用户成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608699442" status="passed" stop="1554608699497">
+      <name>D:\testApi\testcase\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_login</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="新建用户"/>
+        <label name="story" value="登录成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608699499" status="passed" stop="1554608699573">
+      <name>D:\testApi\testcase\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_loadUserList</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="新建用户"/>
+        <label name="story" value="获取列表成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554608699575" status="passed" stop="1554608699696">
+      <name>D:\testApi\testcase\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_loadUserInfo</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="新建用户"/>
+        <label name="story" value="获取信息成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8160-MainThread"/>
+        <label name="host" value="CY-20180317HVRX"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

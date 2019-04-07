@@ -1,0 +1,72 @@
+{
+  "uid" : "d2fe5b564242af70",
+  "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_five",
+  "fullName" : "testcase.D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_five",
+  "historyId" : "685acca45bf79450c906a380cf1d2d4",
+  "time" : {
+    "start" : 1554608699221,
+    "stop" : 1554608699400,
+    "duration" : 179
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3010 == 301",
+  "statusTrace" : "this = <testcase.sys.test_sys_login.Test_Login object at 0x0000000004673780>\n\n    @allure.story('用户名为空')\n    def test_login_fail_five(this):\n        data = {\n            'userName':'',\n            'password': CommonData.password\n        }\n        resp = http.post('/sys/login', data)\n>       assert resp['code'] == 301\nE       assert 3010 == 301\n\ntestcase\\sys\\test_sys_login.py:62: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "CY-20180317HVRX"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "用户名为空"
+  }, {
+    "name" : "thread",
+    "value" : "8160-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_five"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d2fe5b564242af70.json",
+  "parameterValues" : [ ]
+}

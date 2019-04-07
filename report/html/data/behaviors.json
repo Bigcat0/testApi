@@ -1,0 +1,213 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "修改密码模块",
+    "children" : [ {
+      "name" : "修改密码成功",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\sys.test_sys_changePwd.Test_ChangePwd.test_changePwd_success",
+        "uid" : "47da79a3ead883bd",
+        "parentUid" : "a38462b3f4314282ccc0eb63786aa59e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608698686,
+          "stop" : 1554608698906,
+          "duration" : 220
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a38462b3f4314282ccc0eb63786aa59e"
+    } ],
+    "uid" : "305a3b4fed53266ad019359911e11777"
+  }, {
+    "name" : "获取登录信息",
+    "children" : [ {
+      "name" : "获取用户信息",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\sys.test_sys_getUserInfo.Test_getUserInfo.test_getUserInfo",
+        "uid" : "d79a3bd95d75ccb8",
+        "parentUid" : "a0b52e9c2c9406a4319e79a72b1ebc3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608698942,
+          "stop" : 1554608698974,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0b52e9c2c9406a4319e79a72b1ebc3b"
+    } ],
+    "uid" : "a013dc109c84caa83aea113eb47aff9a"
+  }, {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_success",
+        "uid" : "79f4d927859a0bed",
+        "parentUid" : "57a00934f1bd353362aa1d78642bc405",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608698975,
+          "stop" : 1554608699018,
+          "duration" : 43
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57a00934f1bd353362aa1d78642bc405"
+    }, {
+      "name" : "密码错误",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail",
+        "uid" : "e489a59f886a770e",
+        "parentUid" : "7b4621ffa98753a029c914c85d979709",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608699020,
+          "stop" : 1554608699065,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b4621ffa98753a029c914c85d979709"
+    }, {
+      "name" : "用户名超过15位",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_two",
+        "uid" : "246c2fdfe98ee56b",
+        "parentUid" : "5ea8458169eeda8c91ebef0152a7892b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608699067,
+          "stop" : 1554608699098,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5ea8458169eeda8c91ebef0152a7892b"
+    }, {
+      "name" : "用户名不存在",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_three",
+        "uid" : "3d6ca9ae20a9f525",
+        "parentUid" : "57dd6ebb611672e5598fb7b107221921",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608699099,
+          "stop" : 1554608699195,
+          "duration" : 96
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57dd6ebb611672e5598fb7b107221921"
+    }, {
+      "name" : "无参数",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_fore",
+        "uid" : "d9203f76f5bcda0a",
+        "parentUid" : "d91127dd7310d0dba4e3ae10dfe1e097",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608699197,
+          "stop" : 1554608699220,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d91127dd7310d0dba4e3ae10dfe1e097"
+    }, {
+      "name" : "用户名为空",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_five",
+        "uid" : "d2fe5b564242af70",
+        "parentUid" : "841d48ac11104bee7adc28cae4831e75",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554608699221,
+          "stop" : 1554608699400,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "841d48ac11104bee7adc28cae4831e75"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "新建用户",
+    "children" : [ {
+      "name" : "新建用户成功",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_saveOrUpdateUser_success",
+        "uid" : "91132f9c216f15e3",
+        "parentUid" : "34ea4b086247e9e47f344e10f2ada1b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608699402,
+          "stop" : 1554608699441,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34ea4b086247e9e47f344e10f2ada1b3"
+    }, {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_login",
+        "uid" : "1c926e83148ca364",
+        "parentUid" : "2c7a8e8c1828cec3077a2d46872ce2fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608699442,
+          "stop" : 1554608699497,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c7a8e8c1828cec3077a2d46872ce2fd"
+    }, {
+      "name" : "获取列表成功",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_loadUserList",
+        "uid" : "138fdaf12d6f87f6",
+        "parentUid" : "b186564eaaae4da4f1b559d51c90de08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608699499,
+          "stop" : 1554608699573,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b186564eaaae4da4f1b559d51c90de08"
+    }, {
+      "name" : "获取信息成功",
+      "children" : [ {
+        "name" : "D:\\testApi\\testcase\\user.test_user_saveOrUpdateUser.Test_SaveOrUpdateUser.test_loadUserInfo",
+        "uid" : "80769932bf907e6",
+        "parentUid" : "c52a6b543876f0daee68f508cf549a85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554608699575,
+          "stop" : 1554608699696,
+          "duration" : 121
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c52a6b543876f0daee68f508cf549a85"
+    } ],
+    "uid" : "6ba64f78d9438314a604e00d72c869a5"
+  } ]
+}
